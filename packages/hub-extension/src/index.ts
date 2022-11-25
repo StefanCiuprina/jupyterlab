@@ -66,7 +66,7 @@ function activateHubExtension(
     label: trans.__('Restart Server'),
     caption: trans.__('Request that the Hub restart this server'),
     execute: () => {
-      window.open(restartUrl, '_blank');
+      window.open(restartUrl, '_self');
     }
   });
 
